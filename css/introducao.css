@@ -1,0 +1,28 @@
+.introducao h1 {
+  font-size: 3rem;
+  line-height: 1;
+  padding: 60px 0;
+}
+
+.introducao-conteudo {
+  display: flex;
+  gap: 20px;
+  padding: 60px 0;
+  border-top: 2px solid #2c70ff;
+  border-bottom: 2px solid #2c70ff;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+
+.introducao-conteudo h2 {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+
+.introducao-conteudo p {
+  font-size: 1.25em;
+  line-height: 1.4;
+  margin-bottom: 1rem;
+  color: #7c7c7c;
+  max-width: 36ch;
+}

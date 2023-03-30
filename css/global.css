@@ -1,0 +1,47 @@
+body {
+  font-family: "Nunito", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.conteiner {
+  box-sizing: border-box; /*Não somar o padding ao valor total da largura*/
+  max-width: 980px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.grow1 {
+  flex-grow: 1;
+}
+
+/* Os itens se expandem duas vezes mais que aqueles com flex-grow: 1; */
+.grow2 {
+  flex-grow: 2;
+}
+
+.grow3 {
+  flex-grow: 3;
+}
